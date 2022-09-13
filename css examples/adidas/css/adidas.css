@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "AdihausDIN",Helvetica,Arial,sans-serif; 
+    box-sizing: border-box;
+}
+.row{
+    
+    background-color: black;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.extra:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.row2{
+    display:flex;
+    font-size: 13px;
+    margin-left: auto;
+}
+.margin{
+    padding: 10px;
+    margin-left: 15px;
+}
+.margin:hover{
+    cursor: pointer;
+}
+.col1 img{
+    width: 75px;
+    height: 50px;
+    top: 0;
+    margin-left: 20px;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+.row3{
+    display: flex;
+}
+.marginrow3{
+    display: inline-block;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    margin-left: 15px;
+}
+.bold{
+    font-weight: bolder;    
+}
+.col2{
+    margin-left: auto;
+    margin-right: 50px;
+}
+.col3 input{
+    width: 200px;
+    padding: 5px;
+    background-color: rgb(229, 239, 248);
+    outline: 0px;
+    padding-right: 22px;
+}
+.absoposi{
+    position: absolute;
+    left: 1080px;
+    top: 71px;
+}
+.col3{
+    display: inline-block;
+    margin-right: 260px;
+    vertical-align: bottom;
+}
+.col4{
+    position: absolute;
+    left: 1180px;
+    top: 71px;
+}
+.col5{
+    position: absolute;
+    left: 1240px;
+    top: 71px;
+}
+.col6{
+    position: absolute;
+    left: 1300px;
+    top: 71px;
+}
+.marginrow3:hover{
+    cursor: pointer;
+}
+.absoposi:hover{
+    cursor: pointer;
+}
+.col4:hover{
+    cursor: pointer;
+}
+.col5:hover{
+    cursor: pointer;
+}
+.col6:hover{
+    cursor: pointer;
+}
+
+.space{
+    margin-left: 5px;
+}
+.menu_men{
+    position: absolute;
+    color: #131921;
+    background-color: white;
+    top: 90px;
+    left: 300px;
+    display: none;
+}
+/* .men:hover .menu_men{
+    display: flex;
+    
+} */
+.row3:hover .menu_men{
+    display: flex;
+}
+/* .marginrow3:hover .menu_men{
+    display: flex;
+} */
+.middleimg{
+  width: 100%;
+  margin: 0 auto;
+}
+.posi-rel{
+    position: relative;
+}
+.image{
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 25px;
+    box-shadow: 2px 2px gray;
+}
+.rowsec{
+    display: flex;
+    justify-content: space-between;
+}
+.offer{
+    width: 75px;
+    position: absolute;
+    left: 152px;
+}

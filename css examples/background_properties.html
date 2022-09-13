@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 800px;
+            background-color: blueviolet;
+        }
+        .bgproperties{
+            /* background-image: url(bgimage.jpg); */
+            background-image: url(img2.webp), url(bgimage.jpg);
+            background-position: 0px 0px;
+            background-color: blueviolet;
+            background-repeat: no-repeat;
+            /* background-size: cover; */
+            /* background-clip: border-box; */
+            background-attachment: scroll;
+            background-origin: content-box;
+            border: 20px solid blue;
+
+        }
+        .bgimage{
+            /* background-image: url(../../img2.webp); */
+            background-origin: border-box;
+            /* background-size: cover; */
+
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="bgproperties bgimage"></div> 
+    <div></div>
+</body>
+</html>

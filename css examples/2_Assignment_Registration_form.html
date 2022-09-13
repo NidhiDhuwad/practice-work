@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="CSS/2_Assignment_css.css">
+</head>
+<body>
+    <div class="main-div">
+        <form action="" method="post">
+            <div class="title">
+                <h1>
+                    Individual Registration
+                </h1>
+            </div>
+
+            <div >
+                <div class="sub-title">
+                    User Particulars
+                </div>
+                
+                <div class="input-group">
+                        <label for="login_id" class="label">
+                            Login ID    
+                        </label>
+                        <input type="text" name="login_id" id="logine_id" class="input-style">
+                </div>
+
+                <div class="input-group">
+                    <label for="login_id" class="label">
+                        Password    
+                    </label>
+                    <input type="password" name="password" id="password" class="input-style">
+                </div>
+
+                <div class="input-group con_pass">
+                    <label for="login_id" class="label">
+                        Confirm Password    
+                    </label>
+                    <input type="password" name="confirm_password" id="confirm_password" class="input-style">
+                </div>
+            </div>
+
+            <div>
+                <div class="sub-title">
+                    Personal Particulars
+                </div>
+                
+                <div  style="width: 100%;">
+                    <div style="width: 60%;float: left;">
+
+                        <div class="input-group-2">
+                            <label for="salutation" class="label">
+                                Salutation 
+                            </label>
+                            <select name="salutation" id="salutation" class="input-style salutation">
+                                <option value="">Select Salutation</option>
+                                <option value="mr">Mr.</option>
+                                <option value="ms">Ms.</option>
+                                <option value="miss">Miss.</option>
+                                <option value="dr">Dr</option>
+                                <option value="er">Er.</option>
+                                <option value="hr">Hr.</option>
+                            </select>
+                        </div>
+                        <div class="input-group-2 ">
+                            <label for="middle_name" class="label">
+                                Middle Name    
+                            </label>
+                            <input type="text" name="middle_name" id="middle_name" class="input-style middle_name">
+                        </div>
+                
+                        <div class="input-group-2">
+                            <label for="resident_status" class="label">
+                                Resident Status
+                            </label>
+                            <select name="resident" id="resident" class="input-style resident">
+                                <option value="">Select Resident Status</option>
+                                <option value="r">Resident - R</option>
+                                <option value="or">Ordinarily Resident - OR</option>
+                                <option value="rnor">Resident but Not Ordinarily Resident - RNOR</option>
+                                <option value="nr">Non - Resident - NR</option>
+                            </select>
+                        </div>
+            
+                        <div class="input-group-2">
+                            <label for="email_id" class="label">
+                                Email Id 
+                            </label>
+                            <input type="email" name="email" id="email" class="input-style email_id">
+                        </div>
+            
+                    </div>
+                    <div style="width: 40%;float: right; height: 180px;">
+                        
+                        <div class="input-group-2 ">
+                            <label for="first_name" class="label">
+                                First Name
+                            </label>
+                            <input type="text" name="first_name" id="first_name" class="input-style">
+                        </div>
+                        <div class="input-group-2 ">
+                            <label for="last_name" class="label">
+                                Last Name
+                            </label>
+                            <input type="text" name="last_name" id="last_name" class="input-style">
+                        </div>
+                        <div class="input-group-2 Country_label" >
+                            <label for="country" class="label">
+                                Country
+                            </label>
+                            <select name="country" id="country" class="input-style country">
+                                <option value="">Select Country</option>
+                                <option value="ahmedabad">Ahmedabad</option>
+                                <option value="surat">Surat</option>
+                                <option value="rajkot">Rajkot</option>
+                                <option value="snagar">S'Nagar</option>
+                            </select>
+                        </div>
+                        <div class="input-group-2 ">
+                            <label for="mobile_number" class="label">
+                                Mobile No
+                            </label>
+                            <input type="tel" name="mobile_number" id="mobile_number" class="input-style" max="10" pattern="[0-9]+">
+                            
+                        </div>
+                    </div>
+
+                </div>
+        
+            </div>
+
+            <div>
+                <div class="sub-title" id="sub1">
+                    Account Particulars
+                </div>
+
+                <div style="width:100%">
+                    <div style="width: 60%; float: left;">
+                        <div class="input-group-3">
+                            <label for="account_no" class="label">
+                                15 Digit Account No
+                            </label>
+                            <input type="text" name="account_no" id="account_no" class="input-style"  pattern="[0-9]+" min="15" max="15">
+                        </div>
+                        <div class="input-group-3">
+                            <label for="fund_transfer" class="label">
+                                Fund Transfer
+                            </label>
+                            <select name="fund_transfer" id="fund_transfer" class="input-style fund">
+                                <option value="">Select Salutation</option>
+                                <option value="NEFT">National Electronic Fund Transfer.</option>
+                                <option value="RTGS">Real Time Gross Settlement.</option>
+                                <option value="IMPS ">Immediate Payment Service.</option>
+                                <option value="UPI ">Unified Payments Interface</option>
+                                <option value="Cheque">Cheque.</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div style="width: 40%; float: right; height: 100px;">
+                        <div class="input-group-2">
+                            <label for="nick_name" class="label">
+                                Nick Name
+                            </label>
+                            <input type="text" name="nick_name" id="nick_name" class="input-style">
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="sub-title">Declaration
+                </div>
+                <div class="declararion">
+                    <p>
+                        I have read, understood and hereby agree to the terms and conditions in respect of all products and channels.
+                    </p>
+                    <p>
+                        I understand that any changes in the terms and conditions applicable to this relationship would be made available to me 
+                        on request at any IOB branches. I confirm that all accounts under this login name are operated signly and in case of joint 
+                        account oprated by either or survivor anyone or survivor(s) under his/her joint name respectively. I do hereby declare that information
+                        furnished in this form is true to the best of my knowledge and belief.
+                   </p>
+                </div>
+                
+            </div>
+            <div class="footer">
+                <input type="submit" value="Submit" name="submit" id="submit" class="btn">
+                <input type="reset" value="Reset" name="reset" id="reset" class="btn">
+            </div>
+        </form>
+   </div>
+    
+</body>
+</html>

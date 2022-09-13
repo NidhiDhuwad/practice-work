@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2::before{
+            content: "'";
+        }
+        h2::after{
+            content: "'";
+        }
+        p::first-letter{
+            font-size: 26px;
+        }
+        p::first-line{
+            color: rgb(92, 216, 20);
+
+        }
+        p::selection{
+            background-color: rgb(129, 5, 30);
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>use before n after class with tagname to put something before and after that tag contents.</h2>
+    <h2>Whenever we use perticular tag it can applicable.</h2>
+    <h2>I use this with heading h2 tag.</h2>
+    <h2>hello</h2>
+    <p>
+        This is p tag with pseudo element first-letter to increase the size of first letter.<br>
+        Also p tag with pseudo element first-line to change the color or anything of first line.<br>
+        P tag with pseudo element selection to change the background color and text color while text are selected.
+    </p>
+</body>
+</html>

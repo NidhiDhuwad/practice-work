@@ -1,0 +1,49 @@
+<html lang="en">    
+<head>    
+  <title>Bootstrap Example</title>    
+  <meta charset="utf-8">    
+  <meta name="viewport" content="width=device-width, initial-scale=1">    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">  
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />   -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>   
+   
+  <script type="text/javascript">    
+  $(document).ready(function(){    
+   var progressBarVal=80;    
+   var html="<div class='progress-bar progress-bar-striped active' role='progressbar' aria-valuenow="+progressBarVal+" aria-valuemin='0' aria-valuemax='100' style='width:"+progressBarVal+"%'>"+progressBarVal+"%</div>";    
+   $(".progress").append(html);    
+  });    
+  </script> 
+
+<!-- <style>
+      
+    /* For Firefox */
+    progress::-moz-progress-bar {
+        background: green;
+    }
+
+    /* For Chrome or Safari */
+    progress::-webkit-progress-value {
+        background: green;
+    }
+
+    /* For IE10 */
+    progress {
+        background: green;
+    }
+</style> -->
+</head>    
+<body>    
+    
+<div class="container">    
+ <h1>The below progress bar is showing that the progress value is 80% </h1>    
+  <div class="progress" style="background-color: #66b400">   
+    
+</div>
+  </div>    
+  <!-- <progress value="40" max="100"></progress> -->
+</div>    
+    
+</body>    
+</html>   

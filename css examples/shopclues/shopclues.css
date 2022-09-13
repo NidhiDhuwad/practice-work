@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: serif;
+}    
+.headerrow1{
+    display: flex;
+    justify-content: right;
+    line-height: 30px;
+    font-size: 14px;
+    color: rgb(59, 52, 52);
+}
+img.headerrow1{
+    width: 20px;
+    height: 20px;
+}
+
+.headerrow1 div:hover{
+    text-decoration: underline;
+    color: rgb(59, 52, 52);
+    cursor: pointer;
+}
+img.headerrow1:hover{
+    outline: 1px solid;
+}
+.headerrow2{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+
+}
+input.headerrow2{
+    background-color: rgb(144, 206, 211);
+    width: 500px;
+    height: 50px;
+}
+.headerrow3{
+    display: flex;
+    /* color: aqua; */
+    background-color: rgb(11, 165, 165);
+    /* font-variant-caps:petite-caps; */
+    text-transform: uppercase;
+    /* margin: 10px; */
+    /* padding: 10px;  */
+    justify-content: space-around;
+    line-height: 40px;
+    font-size: 14px;
+    }
+/* #Global,#Offers,#essen,#sport,#app,#home,#Womens,#men,#mobile:hover{
+    background-color: aliceblue;
+    color: rgb(92, 29, 29);
+} */
+
+#mobile:hover{
+    background-color: white;
+    color: brown;
+    cursor: pointer;
+}
+#Global:hover{
+    background-color: white;
+    color: brown;
+    cursor: pointer;
+}
+#Offers:hover{
+    background-color: white;
+    color: brown;
+    cursor: pointer;
+}
+#essen:hover{
+    background-color: white;
+    color: brown;
+    cursor: pointer;
+}
+#sport:hover{
+    background-color: white;
+    color: brown;
+    cursor: pointer;
+}
+#app:hover{
+    background-color: white;
+    color: brown;
+    cursor: pointer;
+}
+#home:hover{
+    background-color: white;
+    color: brown;
+    cursor: pointer;
+}
+#Womens:hover{
+    background-color: white;
+    color: brown;
+    cursor: pointer;
+}
+#men:hover{
+    background-color: white;
+    color: brown;
+    cursor: pointer;
+}
+img.headerrow3{
+    margin-left: 200px;
+    margin-top: 5px;
+    }
+div.headerrow4{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.headerrow4{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+div.headerrow4:hover{
+    cursor: pointer;
+}
+
+#time:hover{
+    color: rgb(22, 142, 189);
+}
+#flu:hover{
+    color: rgb(22, 142, 189);
+}
+#food:hover{
+    color: rgb(22, 142, 189);
+}
+#phygiene:hover{
+    color: rgb(22, 142, 189);
+}
+#home:hover{
+    color: rgb(22, 142, 189);
+}
+#nutri:hover{
+    color: rgb(22, 142, 189);
+}
+#kitchen:hover{
+    color: rgb(22, 142, 189);
+}
+#refur:hover{
+    color: rgb(22, 142, 189);
+}
+#mob:hover{
+    color: rgb(22, 142, 189);
+}
+.mobileheader{
+    position: absolute;
+    color: #131921;
+    background-color: white;
+    padding: 5px 15px;
+    top: 120px;
+    border-radius: 5px;
+    display: none;
+                
+ }
+.mobile:hover .mobileheader{
+    display: flex;
+}
+.space{
+    margin-left: 10px;
+}
